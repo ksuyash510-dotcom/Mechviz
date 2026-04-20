@@ -122,7 +122,7 @@ Respond ONLY with valid JSON, no markdown fences, no preamble:
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model:       'llama3-8b-8192',
+        model:       'llama-3.1-8b-instant',
         messages:    [{ role: 'user', content: prompt }],
         max_tokens:  1200,
         temperature: 0.5
